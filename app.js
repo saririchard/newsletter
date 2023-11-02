@@ -20,10 +20,6 @@ run();
 
 const app = express();
 
-
-//1957471096b33a499bbfddc86cf40b49-us8 //api key 0ce13c3acf subid
-
-
 app.use(bodyParser.urlencoded({ extended: true }));
 
 app.get('/', (req, res) => {
